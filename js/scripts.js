@@ -5,7 +5,6 @@ function Player(totalScore){
   this.totalScore = totalScore;
 }
 var rollDice = function() {
-  $("#roll").onclic(roll);
   return Math.floor((Math.random()*6)+1);
 }
 
@@ -14,6 +13,6 @@ var rollDice = function() {
 
 //UI Logic
 $(document).ready(function(){
-
+  
 
 });
